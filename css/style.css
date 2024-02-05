@@ -14,6 +14,7 @@ body{
 
 }
 
+
 .Title{
     text-decoration: underline;
     text-decoration-color:  #f511cb93;
@@ -41,6 +42,11 @@ body{
 
 }
 
+.timelinesetupdivtest{
+    display: flex;
+    flex-direction: column;
+}
+
 .LOGOS{
     height: auto;
     width: 30%;
@@ -48,8 +54,16 @@ body{
 
 
 
+
+
 }
 
+
+.eventContainer{
+    display: flex;
+    flex-direction: row;
+
+}
 .JSL{
 
     height: 80vh;
@@ -58,16 +72,29 @@ body{
     align-items: flex-start;
 }
 
+
+
 .info-container{
+    background-color: rgba(255, 255, 255, 0.217);
+    border-radius: 20px;
     padding: 30px;
     display: flex;
     flex-direction: column;
-    overflow: auto;
-    height: 30vh;
-    width: auto;
+    /* overflow: auto; */
+    height: auto;
+    width: 25vw;
     margin-bottom: 30px;
+
+    .logoContainer{
+        background-color: rgba(248, 70, 70, 0.787);
+        display:flex;
+        justify-content: flex-start;
+        
+    }
     
 }
+
+
 .Left{
     width: 30vw;
     display: flex;
