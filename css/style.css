@@ -1,11 +1,14 @@
 body{
     font-family: 'Lato', sans-serif;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0; */
+    background: rgb(182,28,173);
+    background: radial-gradient(circle, rgba(182,28,173,1) 0%, rgba(216,102,39,1) 43%, rgba(106,45,253,1) 93%);
+    color: white;
 
     
 
@@ -13,7 +16,7 @@ body{
 
 .Title{
     text-decoration: underline;
-    text-decoration-color:  #30a5ff;
+    text-decoration-color:  #f511cb93;
     text-decoration-thickness: 20px;
     text-align: center;
 
@@ -38,16 +41,31 @@ body{
 
 }
 
-.HTMLLOGO{
+.LOGOS{
     height: auto;
     width: 30%;
 
 
+
+
+}
+
+.JSL{
+
+    height: 80vh;
+    width: auto;
+    display:flex;
+    align-items: flex-start;
 }
 
 .info-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
     height: 30vh;
     width: auto;
+    margin-bottom: 30px;
     
 }
 .Left{
@@ -73,7 +91,7 @@ body{
 .Middle{
     margin-top: 10px;
     padding: 10px;
-    background-color: #30a5ff;
+    background-color: #ff63d08f;
     width: 2px;
     border-radius: 2vh;
     height: auto;  /* Set height to auto or remove the height property */

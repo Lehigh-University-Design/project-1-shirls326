@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <script src="js/navigator.js"></script>
 </head>
 <body>
     <h1 class = "Title">History of Programming Languages on the internet</h1>
@@ -21,13 +23,7 @@
 
             </div>
             <div class="info-container event1">
-                <h3>1995</h3>
-                <p>
-                    Tim Berners-Lee, a computer scientist, pioneered the development of HTML (Hypertext Markup Language) as the inaugural markup language. Introduced to facilitate internet content creation, HTML structures web documents by using tags to define elements like headings and links.
-                    Berners-Lee's innovation laid the foundation for the World Wide Web, 
-                    enabling the seamless exchange of information online.
-                </p>
-
+                <svg class = "LOGOS JSL" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#ffffff" d="M3 3h18v18H3zm4.73 15.04c.4.85 1.19 1.55 2.54 1.55c1.5 0 2.53-.8 2.53-2.55v-5.78h-1.7V17c0 .86-.35 1.08-.9 1.08c-.58 0-.82-.4-1.09-.87zm5.98-.18c.5.98 1.51 1.73 3.09 1.73c1.6 0 2.8-.83 2.8-2.36c0-1.41-.81-2.04-2.25-2.66l-.42-.18c-.73-.31-1.04-.52-1.04-1.02c0-.41.31-.73.81-.73c.48 0 .8.21 1.09.73l1.31-.87c-.55-.96-1.33-1.33-2.4-1.33c-1.51 0-2.48.96-2.48 2.23c0 1.38.81 2.03 2.03 2.55l.42.18c.78.34 1.24.55 1.24 1.13c0 .48-.45.83-1.15.83c-.83 0-1.31-.43-1.67-1.03z"/></svg>
             </div>
             <div class="info-container event1">
                 <h3>1991</h3>
@@ -53,7 +49,7 @@
 
         <div class="Timeline-Item Right">
             <div class="info-container event1">
-                 <svg class ="HTMLLOGO" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#000000" d="m3.183 2l1.604 18l7.202 2l7.222-2.002L20.818 2Zm14.142 5.887H8.877l.202 2.261h8.045l-.606 6.778L12 18.178l-.01.004l-4.522-1.256l-.31-3.466h2.216l.157 1.76l2.46.664h.001l2.463-.665l.256-2.863H7.06L6.464 5.68h11.059Z"/></svg>
+                 <svg class ="LOGOS" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#000000" d="m3.183 2l1.604 18l7.202 2l7.222-2.002L20.818 2Zm14.142 5.887H8.877l.202 2.261h8.045l-.606 6.778L12 18.178l-.01.004l-4.522-1.256l-.31-3.466h2.216l.157 1.76l2.46.664h.001l2.463-.665l.256-2.863H7.06L6.464 5.68h11.059Z"/></svg>
     
             </div>
             <div class="info-container event1">
@@ -99,10 +95,20 @@
         
     </div>
 
-    <div class="container">
+    <footer>
+        <nav class="navbar">
+            <ul class="navbar-name">
+                <h2>Connect Four</h2>
+            </ul>
 
-
-    </div>
+            <ul class="navbar-links">
+                <a href="#" onclick="goToRandom()">Random</a>
+                <a href="#" onclick="goToPrevious()">Prev</a>
+                <a href="#" onclick="goToNext()">Next</a>
+            </ul>
+        </nav>
+        <div class="navbar-padding"></div>
+    </footer>
    
 
 
