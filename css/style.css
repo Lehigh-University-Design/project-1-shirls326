@@ -1,0 +1,84 @@
+body{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    
+
+}
+
+.Title{
+    text-decoration: underline;
+    text-decoration-color:  #30a5ff;
+    text-decoration-thickness: 20px;
+    text-align: center;
+
+
+}
+
+.Timeline-Setup{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0;  /* Adjusted to remove padding */
+    margin: 0;   /* Adjusted to remove margin */
+    width: 100%;
+    /* width: 100vh; */
+    /* padding: 1vh 1vw; */
+    /* width: 100vw; */
+
+
+
+
+}
+
+.HTMLLOGO{
+    height: auto;
+    width: 30%;
+
+
+}
+
+.info-container{
+    height: 30vh;
+    width: auto;
+    
+}
+.Left{
+    width: 30vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+
+    /* height: 20vh; */
+}
+.Right{
+    width: 30vw;
+}
+
+.Timeline-Item{
+    text-align: left;
+
+    padding: 30px;
+    padding: 50px;
+
+}
+.Middle{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #30a5ff;
+    width: 2px;
+    border-radius: 2vh;
+    height: auto;  /* Set height to auto or remove the height property */
+    position: absolute;  /* Set position to absolute */
+    top: 0;  /* Start from the top */
+    bottom: 0;  /* Extend to the bottom */
+
+}
