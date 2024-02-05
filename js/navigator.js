@@ -4,9 +4,9 @@
 var websites = [
     "https://lehigh-university-design.github.io/project-1-awb324/", // 1
     "https://lehigh-university-design.github.io/project-1-sit225/", // 2
-    "https://lehigh-university-design.github.io/project-1-adrawoot/", // 4
+    "https://lehigh-university-design.github.io/project-1-axdrawoot/", // 4
     "https://lehigh-university-design.github.io/project-1-mmurata22/", // 5
-    "https://lehigh-university-design.github.io/project-1-eyt225/", // 7
+    "https://lehigh-university-design.github.io/project-1-eyt2x25/", // 7
     "https://lehigh-university-design.github.io/project-1-shirls326/", // 8 
     "https://lehigh-university-design.github.io/project-1-ellafall/", // 10
     "https://lehigh-university-design.github.io/project-1-kaydolan/", // 12

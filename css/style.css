@@ -6,9 +6,14 @@ body{
     width: 100%;
     margin: 0;
     padding: 0; */
+    margin:0;
+    padding: 0;
+
     background: rgb(182,28,173);
     background: radial-gradient(circle, rgba(182,28,173,1) 0%, rgba(216,102,39,1) 43%, rgba(106,45,253,1) 93%);
     color: white;
+  
+    
 
     
 
@@ -20,6 +25,21 @@ body{
     text-decoration-color:  #f511cb93;
     text-decoration-thickness: 20px;
     text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+
+
+.eventContainer{
+
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 30px;
 
 
 }
@@ -43,13 +63,32 @@ body{
 }
 
 .timelinesetupdivtest{
+
+
+
     display: flex;
     flex-direction: column;
+    /* margin: 30%; */
+    margin: 10px;
+    margin-top: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    width: 98%;
+    margin-bottom: 30px;
+
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding: 30px; /* Corrected value */
+    box-sizing: border-box; /* Include padding in width calculation */
+    border-radius: 10px;
+
 }
 
 .LOGOS{
     height: auto;
-    width: 30%;
+    width: 50%;
 
 
 
@@ -85,13 +124,14 @@ body{
     width: 25vw;
     margin-bottom: 30px;
 
-    .logoContainer{
-        background-color: rgba(248, 70, 70, 0.787);
-        display:flex;
-        justify-content: flex-start;
-        
-    }
     
+
+    
+}
+.info-container.logoContainer {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
 }
 
 
