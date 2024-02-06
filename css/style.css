@@ -1,5 +1,5 @@
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Bitter';
     /* display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,11 +21,16 @@ body{
 
 
 .Title{
-    text-decoration: underline;
+    /* text-decoration: underline;
     text-decoration-color:  #f511cb93;
-    text-decoration-thickness: 20px;
+    text-decoration-thickness: 20px; */
     text-align: center;
     margin-bottom: 30px;
+    padding-top:20vh;
+    padding-bottom: 20vh;
+    font-size: 7rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
 
 
 }
@@ -35,11 +40,14 @@ body{
 .eventContainer{
 
     width:100%;
+
     display: flex;
     flex-direction: row;
     position: relative;
     justify-content: space-around;
     margin-top: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 
 
 }
@@ -57,12 +65,10 @@ body{
     /* padding: 1vh 1vw; */
     /* width: 100vw; */
 
-
-
-
 }
 
 .timelinesetupdivtest{
+    /* background-color: rgba(212, 212, 212, 0.247); */
 
 
 
@@ -79,7 +85,7 @@ body{
 
     border: 3px;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     padding: 30px; /* Corrected value */
     box-sizing: border-box; /* Include padding in width calculation */
     border-radius: 10px;
@@ -99,17 +105,12 @@ body{
 
 
 .eventContainer{
+
     display: flex;
     flex-direction: row;
 
 }
-.JSL{
 
-    height: 80vh;
-    width: auto;
-    display:flex;
-    align-items: flex-start;
-}
 
 
 
@@ -156,14 +157,18 @@ body{
 
 }
 .Middle{
+    position: absolute;  /* Set position to absolute */
+    top: 50%;  /* Center vertically */
+    left: 50%;  /* Center horizontally */
+
     margin-top: 10px;
-    padding: 10px;
-    background-color: #ff63d08f;
+    padding: 3px;
+    background-color: #ffffff;
     width: 2px;
     border-radius: 2vh;
-    height: auto;  /* Set height to auto or remove the height property */
-    position: absolute;  /* Set position to absolute */
-    top: 0;  /* Start from the top */
-    bottom: 0;  /* Extend to the bottom */
+    height: 90%;
+    z-index: 1000;
+
+    transform: translate(-50%, -50%);
 
 }
