@@ -11,6 +11,7 @@ var websites = [
     "https://lehigh-university-design.github.io/project-1-ellafall/", // 10
     "https://lehigh-university-design.github.io/project-1-kaydolan/", // 12
     "https://lehigh-university-design.github.io/project-1-dsw225/", // 13
+    "https://lehigh-university-design.github.io/project-1-timaldroubi/", // 15
 ];
 
 
