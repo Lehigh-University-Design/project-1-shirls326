@@ -12,10 +12,37 @@ body{
     background: rgb(182,28,173);
     background: radial-gradient(circle, rgba(182,28,173,1) 0%, rgba(216,102,39,1) 43%, rgba(106,45,253,1) 93%);
     color: white;
-  
+
     
 
     
+
+}
+
+
+.infoButton{
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    border: 3px;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: white;
+    /* width: 5vw; */
+    width: fit-content;
+    margin: 0 auto;
+    transition: 0.3s;
+
+
+
+}
+.infoButton:hover{
+    
+    border-color: #ffffff;
+    background-color: rgba(154, 154, 154, 0);
+    color: white;
+    cursor: pointer;
+
 
 }
 
@@ -29,7 +56,7 @@ body{
     margin: 0;
     height: 70vh;
     padding: 15vh 10vw;
-    font-size: 7rem;
+    font-size: 6rem;
 
 
 }
